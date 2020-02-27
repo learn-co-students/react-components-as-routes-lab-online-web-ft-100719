@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: grey;
+  color: white
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  text-decoration: 'none';
+  color: white
+}
+
+.nav-links:hover {
+  background-color: lightsteelblue;
+  color: white;
+  cursor: pointer;
+}
+
+/* Add a color to the active/current link */
+.nav-links.active {
+  background-color:  lightgray;
+  color: black;
+}
+
+.list-item {
+  list-style: none;
+}
